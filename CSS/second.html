@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #city{  /* Id selector - called by #. 1st priority */
+            background-color: aqua;
+        }
+       .welcome{  /* class selector - called by (.dot), 2nd priority */
+            background-color: pink;
+        }
+       /* div{  <!--tag selector, 3rd priority -->
+            background-color: blue;
+        } */
+        h1{
+            background-color: green;
+        }
+        div {
+            display: inline; /* display the content from block to inline element */
+            background-color: blue;
+        }
+        span {
+            background-color: pink;
+            display: block; /* display property used to change the behavior of the property. Eg: span is in an inline element. when we giving display as block in span, it will behave as like block level element */
+        }
+    </style> 
+</head>
+<body>
+    <h1>London</h1>
+    <div id="city" class="welcome">Bangalore</div>
+    <!-- <div>Bangalore</div>
+    <div>Mumbai</div>
+    when it is nested, tag > class || parent > class -->
+    <div class="welcome">
+        <h1>London</h1>
+        <p>London is capital of England</p>
+    </div>
+
+    <div>Hello Everyone</div>
+    <span>Hello everyone</span>
+</body>
+</body>
+</html>
