@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: pink;
+    
+    color: red;
+   
+    /* border-width: 20px;
+    border-color: red;
+    border-style: solid; */
+   
+    /* border: 20px solid red; */
+   
+    border-top-width: 10px;
+    border-top-color: violet;
+    border-top-style: solid;
+
+    border-bottom-width: 10px;
+    border-bottom-color: aquamarine;
+    border-bottom-style: groove;
+
+    /* padding: 40px; */
+    
+    /* padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 30px; */
+
+    padding:10px 20px 30px 40px; /* top, right, bottom, left*/
+
+
+    background-color: green;
+
+    margin: 20px 100px 50px 200px;
+}
