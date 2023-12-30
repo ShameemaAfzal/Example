@@ -4,35 +4,33 @@
     padding: 0;
 }
 
-.container{
-    background-color: pink;
-    
-    color: red;
-   
-    /* border-width: 20px;
-    border-color: red;
-    border-style: solid; */
-   
-    /* border: 20px solid red; */
-   
-    border-top-width: 10px;
-    border-top-color: violet;
-    border-top-style: solid;
 
-    border-bottom-width: 10px;
-    border-bottom-color: aquamarine;
-    border-bottom-style: groove;
-
-    /* padding: 40px; */
-    
-    /* padding-left: 20px;
-    padding-right: 10px;
-    padding-top: 30px; */
-
-    padding:10px 20px 30px 40px; /* top, right, bottom, left*/
+.parent-container{
+    background-color: aqua;
+    height: 800px;
 
 
-    background-color: green;
+    display: flex; /* flex is used to change layout vertical format into horizontal format */
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; flex-wrap is used to divide the elements in multiple rows within the given space */
 
-    margin: 20px 100px 50px 200px;
+    /* justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; 
+    justify-content: flex-start; */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.child-container{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin: 16px;
+    font-size: 40px;
+    color: white;
 }
