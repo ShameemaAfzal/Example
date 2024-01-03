@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.normal{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+.container{
+    /* position: static; */
+    
+    /* position: relative;
+    left: 100px; create 100px space in the side of the container
+    top: 100px; create 100px space in the top of the container */
+
+    /* position: absolute;
+    left: 80px;
+    top: 80px; */
+    
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    
+    
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
