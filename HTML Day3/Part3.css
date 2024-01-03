@@ -21,11 +21,14 @@
     left: 80px;
     top: 80px; */
     
-    position: fixed;
+    /* position: fixed;
+    right: 100px;
+    bottom: 100px; */
+    
+    position: sticky;
     right: 100px;
     bottom: 100px;
-    
-    
+
     width: 100px;
     height: 100px;
     background-color: red;
