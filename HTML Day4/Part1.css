@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: palevioletred;
+    padding: 16px;
+    
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width: 320px;
+    padding: 16px;
+    border-radius: 8px;
+    height: 240px;
+    
+    /* overflow example */
+
+    overflow: scroll;
+    /* overflow: hidden; */
+    /* overflow: visible; */
+    /* overflow: auto; */
+}
