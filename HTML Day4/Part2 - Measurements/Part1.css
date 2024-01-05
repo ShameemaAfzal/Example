@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    gap: 16px;
+    /* column-gap: 16px; */
+    /* row-gap: 16px; */
+    flex-wrap: wrap;
+
+    background-color: palevioletred;
+    padding: 16px;
+
+    height: 180vh;
+    
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    
+    /* measurements example */
+    /* width: 40%; */
+    
+    padding: 16px;
+    border-radius: 8px;
+    
+    /* overflow example */
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+    /* overflow: visible; */
+    /* overflow: auto; */
+}
