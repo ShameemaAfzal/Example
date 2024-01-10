@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    gap: 16px;
+    /* column-gap: 16px; */
+    /* row-gap: 16px; */
+    flex-wrap: wrap;
+
+    background-color: palevioletred;
+    padding: 16px;
+
+    /* height: 180vh; */
+    
+}
+
+body{
+    font-family: 'ubuntu'; 
+}
+.card{
+    background-color: white;
+    width: 300px;
+    
+    padding: 16px;
+    border-radius: 8px;
+    
+    overflow: scroll;
+
+    /* font-family: monospace;
+    font-size: 16px;
+    font-weight: bold; */
+    /* font-weight: 700; */
+    /* font-weight: 100; */
+    /* font-style: italic; */
+    /* font-style: oblique; */
+    text-transform: uppercase;
+    /* font: 100 16px 'ubuntu'; */  /* instead of using it here, we can create body list and use it there. see above for reference */
+    
+}
