@@ -1,0 +1,40 @@
+.container{
+    background-color: pink;
+    font-size: 16px;
+    height: 100px
+}
+.image{
+    width: 200px;
+}
+@media screen and (min-width: 600px) {
+    .container{
+        background-color: red;
+        font-size: 32px;
+
+    }
+    .image{
+        width: 400px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .container{
+        background-color: green;
+        font-size: 48px;
+    }
+    .image{
+        width: 600px;
+    }
+}
+
+/* orientation concept */
+
+@media screen and (orientation: landscape) {
+    .container{
+        background-color: rebeccapurple;
+    }
+}
+@media screen and (orientation: portrait) {
+    .container{
+        background-color: yellowgreen;
+    }
+}

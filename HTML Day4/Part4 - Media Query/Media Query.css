@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-size: 80px;
+    background-color: orange;
+    height: 200px;
+}
+.image{
+    width: 1000px;
+}
+@media screen and (max-width:1024px){
+    .container{
+        background-color: pink;
+        font-size: 48px;
+    }
+    .image{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .image{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container{
+        background-color: red;
+        font-size: 36px;
+        color: white;
+    }
+}
